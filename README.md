@@ -6,12 +6,28 @@ note, the system information realted to Memory and Available Memory accounts for
 
 install gcc
 
+fedora
+
+```bash
 sudo dnf install gcc
+```
+
+debian
+
+```bash
+sudo apt install gcc
+
+```
 
 to compile run
 
+```bash
+chmod +x build.sh
 ./build.sh
+```
 
 then run
 
+```bash
 ./osfetch
+```
